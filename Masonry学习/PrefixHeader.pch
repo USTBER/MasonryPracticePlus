@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  Masonry学习
+//
+//  Created by LiChunxing on 16/4/1.
+//  Copyright © 2016年 Demo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define WeakSelf(weakSelf) __weak typeof(self) weakSelf = self
+#define LazyLoad(view) if(view){return view;} view = [[UIView alloc] init]; view.layer.borderColor = [UIColor blackColor].CGColor; view.layer.borderWidth = 2
+#define MAIN_WIDTH CGRectGetWidth([UIScreen mainScreen].bounds)
+#define MAIN_HEIGHT CGRectGetHeight([UIScreen mainScreen].bounds)
+
+
+#endif /* PrefixHeader_pch */

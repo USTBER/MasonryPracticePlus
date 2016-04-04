@@ -14,9 +14,25 @@
 		92241F911CAD1DFD00E0471A /* Masonry__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92241F8F1CAD1DFD00E0471A /* Masonry__.xcdatamodeld */; };
 		92241F931CAD1DFD00E0471A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92241F921CAD1DFD00E0471A /* Assets.xcassets */; };
 		92241F961CAD1DFD00E0471A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92241F941CAD1DFD00E0471A /* LaunchScreen.storyboard */; };
+		92241FA71CAD23B700E0471A /* LCHBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92241FA61CAD23B700E0471A /* LCHBaseController.m */; };
+		92241FAD1CAD282F00E0471A /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92241FAC1CAD282F00E0471A /* BaseController.m */; };
+		92241FB01CAD599900E0471A /* UpdateConstrainsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92241FAF1CAD599900E0471A /* UpdateConstrainsController.m */; };
+		92241FB31CAD669000E0471A /* RemakeConstrainsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92241FB21CAD669000E0471A /* RemakeConstrainsController.m */; };
+		92241FB61CADF92D00E0471A /* TotallyUpdateConstrainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92241FB51CADF92D00E0471A /* TotallyUpdateConstrainViewController.m */; };
+		92241FB91CAE4DDE00E0471A /* AspectFitConstrainsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92241FB81CAE4DDE00E0471A /* AspectFitConstrainsController.m */; };
+		92241FBC1CAE4E4B00E0471A /* CompositeConstrainsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92241FBB1CAE4E4B00E0471A /* CompositeConstrainsController.m */; };
+		92241FC01CAE98F700E0471A /* LCHAutoHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92241FBF1CAE98F700E0471A /* LCHAutoHeightCell.m */; };
+		92241FC31CAE992300E0471A /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 92241FC21CAE992300E0471A /* People.m */; };
+		92241FC61CAEA3BA00E0471A /* TableConstrainsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92241FC51CAEA3BA00E0471A /* TableConstrainsController.m */; };
+		92241FC81CAEA3ED00E0471A /* Peoples.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92241FC71CAEA3ED00E0471A /* Peoples.plist */; };
+		92E10FBF1CB0A90C00D28BD4 /* SimpleScrollConstrainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E10FBE1CB0A90C00D28BD4 /* SimpleScrollConstrainController.m */; };
+		92E10FC21CB0D7D600D28BD4 /* complexScrollConstrainsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E10FC11CB0D7D600D28BD4 /* complexScrollConstrainsController.m */; };
+		92E10FC51CB10A7100D28BD4 /* NormalScrollConstrainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E10FC41CB10A7100D28BD4 /* NormalScrollConstrainController.m */; };
+		FA2457F444B522384ADE8271 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACE3872EECC6A96A4FDE841 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6ACE3872EECC6A96A4FDE841 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		92241F801CAD1DFD00E0471A /* Masonry学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masonry学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92241F841CAD1DFD00E0471A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92241F861CAD1DFD00E0471A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +44,36 @@
 		92241F921CAD1DFD00E0471A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92241F951CAD1DFD00E0471A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92241F971CAD1DFD00E0471A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92241FA51CAD23B700E0471A /* LCHBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHBaseController.h; sourceTree = "<group>"; };
+		92241FA61CAD23B700E0471A /* LCHBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHBaseController.m; sourceTree = "<group>"; };
+		92241FAB1CAD282F00E0471A /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		92241FAC1CAD282F00E0471A /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		92241FAE1CAD599900E0471A /* UpdateConstrainsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateConstrainsController.h; sourceTree = "<group>"; };
+		92241FAF1CAD599900E0471A /* UpdateConstrainsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateConstrainsController.m; sourceTree = "<group>"; };
+		92241FB11CAD669000E0471A /* RemakeConstrainsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemakeConstrainsController.h; sourceTree = "<group>"; };
+		92241FB21CAD669000E0471A /* RemakeConstrainsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemakeConstrainsController.m; sourceTree = "<group>"; };
+		92241FB41CADF92D00E0471A /* TotallyUpdateConstrainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotallyUpdateConstrainViewController.h; sourceTree = "<group>"; };
+		92241FB51CADF92D00E0471A /* TotallyUpdateConstrainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotallyUpdateConstrainViewController.m; sourceTree = "<group>"; };
+		92241FB71CAE4DDE00E0471A /* AspectFitConstrainsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectFitConstrainsController.h; sourceTree = "<group>"; };
+		92241FB81CAE4DDE00E0471A /* AspectFitConstrainsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectFitConstrainsController.m; sourceTree = "<group>"; };
+		92241FBA1CAE4E4B00E0471A /* CompositeConstrainsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeConstrainsController.h; sourceTree = "<group>"; };
+		92241FBB1CAE4E4B00E0471A /* CompositeConstrainsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeConstrainsController.m; sourceTree = "<group>"; };
+		92241FBD1CAE660800E0471A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		92241FBE1CAE98F700E0471A /* LCHAutoHeightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHAutoHeightCell.h; sourceTree = "<group>"; };
+		92241FBF1CAE98F700E0471A /* LCHAutoHeightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHAutoHeightCell.m; sourceTree = "<group>"; };
+		92241FC11CAE992300E0471A /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		92241FC21CAE992300E0471A /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		92241FC41CAEA3BA00E0471A /* TableConstrainsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableConstrainsController.h; sourceTree = "<group>"; };
+		92241FC51CAEA3BA00E0471A /* TableConstrainsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableConstrainsController.m; sourceTree = "<group>"; };
+		92241FC71CAEA3ED00E0471A /* Peoples.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Peoples.plist; sourceTree = "<group>"; };
+		92E10FBD1CB0A90C00D28BD4 /* SimpleScrollConstrainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleScrollConstrainController.h; sourceTree = "<group>"; };
+		92E10FBE1CB0A90C00D28BD4 /* SimpleScrollConstrainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleScrollConstrainController.m; sourceTree = "<group>"; };
+		92E10FC01CB0D7D600D28BD4 /* complexScrollConstrainsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = complexScrollConstrainsController.h; sourceTree = "<group>"; };
+		92E10FC11CB0D7D600D28BD4 /* complexScrollConstrainsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = complexScrollConstrainsController.m; sourceTree = "<group>"; };
+		92E10FC31CB10A7100D28BD4 /* NormalScrollConstrainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalScrollConstrainController.h; sourceTree = "<group>"; };
+		92E10FC41CB10A7100D28BD4 /* NormalScrollConstrainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalScrollConstrainController.m; sourceTree = "<group>"; };
+		AF085E24D115FE7E333EA0D3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E8A36DED4F8B8B2A9AC29ED1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2457F444B522384ADE8271 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CF48FE9CCAAD274D45807ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ACE3872EECC6A96A4FDE841 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47D7AE52BBB675E3C5C5F31D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF085E24D115FE7E333EA0D3 /* Pods.debug.xcconfig */,
+				E8A36DED4F8B8B2A9AC29ED1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		92241F771CAD1DFD00E0471A = {
 			isa = PBXGroup;
 			children = (
 				92241F821CAD1DFD00E0471A /* Masonry学习 */,
 				92241F811CAD1DFD00E0471A /* Products */,
+				47D7AE52BBB675E3C5C5F31D /* Pods */,
+				2CF48FE9CCAAD274D45807ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +126,9 @@
 		92241F821CAD1DFD00E0471A /* Masonry学习 */ = {
 			isa = PBXGroup;
 			children = (
-				92241F861CAD1DFD00E0471A /* AppDelegate.h */,
-				92241F871CAD1DFD00E0471A /* AppDelegate.m */,
-				92241F891CAD1DFD00E0471A /* ViewController.h */,
-				92241F8A1CAD1DFD00E0471A /* ViewController.m */,
-				92241F8C1CAD1DFD00E0471A /* Main.storyboard */,
-				92241F921CAD1DFD00E0471A /* Assets.xcassets */,
-				92241F941CAD1DFD00E0471A /* LaunchScreen.storyboard */,
-				92241F971CAD1DFD00E0471A /* Info.plist */,
-				92241F8F1CAD1DFD00E0471A /* Masonry__.xcdatamodeld */,
+				92241FA21CAD22B300E0471A /* PublicClass */,
+				92241FA11CAD22A000E0471A /* Class */,
+				92241FA31CAD22E100E0471A /* Resoures */,
 				92241F831CAD1DFD00E0471A /* Supporting Files */,
 			);
 			path = "Masonry学习";
@@ -82,6 +142,88 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		92241F9E1CAD226E00E0471A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92241FC11CAE992300E0471A /* People.h */,
+				92241FC21CAE992300E0471A /* People.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		92241F9F1CAD227400E0471A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92241FBE1CAE98F700E0471A /* LCHAutoHeightCell.h */,
+				92241FBF1CAE98F700E0471A /* LCHAutoHeightCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		92241FA01CAD227D00E0471A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				92241FA51CAD23B700E0471A /* LCHBaseController.h */,
+				92241FA61CAD23B700E0471A /* LCHBaseController.m */,
+				92241FAB1CAD282F00E0471A /* BaseController.h */,
+				92241FAC1CAD282F00E0471A /* BaseController.m */,
+				92241FAE1CAD599900E0471A /* UpdateConstrainsController.h */,
+				92241FAF1CAD599900E0471A /* UpdateConstrainsController.m */,
+				92241FB11CAD669000E0471A /* RemakeConstrainsController.h */,
+				92241FB21CAD669000E0471A /* RemakeConstrainsController.m */,
+				92241FB41CADF92D00E0471A /* TotallyUpdateConstrainViewController.h */,
+				92241FB51CADF92D00E0471A /* TotallyUpdateConstrainViewController.m */,
+				92241FBA1CAE4E4B00E0471A /* CompositeConstrainsController.h */,
+				92241FBB1CAE4E4B00E0471A /* CompositeConstrainsController.m */,
+				92241FB71CAE4DDE00E0471A /* AspectFitConstrainsController.h */,
+				92241FB81CAE4DDE00E0471A /* AspectFitConstrainsController.m */,
+				92241FC41CAEA3BA00E0471A /* TableConstrainsController.h */,
+				92241FC51CAEA3BA00E0471A /* TableConstrainsController.m */,
+				92E10FBD1CB0A90C00D28BD4 /* SimpleScrollConstrainController.h */,
+				92E10FBE1CB0A90C00D28BD4 /* SimpleScrollConstrainController.m */,
+				92E10FC01CB0D7D600D28BD4 /* complexScrollConstrainsController.h */,
+				92E10FC11CB0D7D600D28BD4 /* complexScrollConstrainsController.m */,
+				92E10FC31CB10A7100D28BD4 /* NormalScrollConstrainController.h */,
+				92E10FC41CB10A7100D28BD4 /* NormalScrollConstrainController.m */,
+				92241F891CAD1DFD00E0471A /* ViewController.h */,
+				92241F8A1CAD1DFD00E0471A /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		92241FA11CAD22A000E0471A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				92241F9E1CAD226E00E0471A /* Models */,
+				92241F9F1CAD227400E0471A /* Views */,
+				92241FA01CAD227D00E0471A /* Controllers */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		92241FA21CAD22B300E0471A /* PublicClass */ = {
+			isa = PBXGroup;
+			children = (
+				92241F861CAD1DFD00E0471A /* AppDelegate.h */,
+				92241F871CAD1DFD00E0471A /* AppDelegate.m */,
+				92241F8C1CAD1DFD00E0471A /* Main.storyboard */,
+				92241F941CAD1DFD00E0471A /* LaunchScreen.storyboard */,
+				92241FBD1CAE660800E0471A /* PrefixHeader.pch */,
+			);
+			name = PublicClass;
+			sourceTree = "<group>";
+		};
+		92241FA31CAD22E100E0471A /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				92241F921CAD1DFD00E0471A /* Assets.xcassets */,
+				92241F971CAD1DFD00E0471A /* Info.plist */,
+				92241F8F1CAD1DFD00E0471A /* Masonry__.xcdatamodeld */,
+				92241FC71CAEA3ED00E0471A /* Peoples.plist */,
+			);
+			name = Resoures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92241F9A1CAD1DFD00E0471A /* Build configuration list for PBXNativeTarget "Masonry学习" */;
 			buildPhases = (
+				B35F82C1BE2D2F89B9DDAC01 /* Check Pods Manifest.lock */,
 				92241F7C1CAD1DFD00E0471A /* Sources */,
 				92241F7D1CAD1DFD00E0471A /* Frameworks */,
 				92241F7E1CAD1DFD00E0471A /* Resources */,
+				68BEBF3AA45556B4CEBEC42A /* Embed Pods Frameworks */,
+				7E3408CCC63FEF930E12371A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,20 +287,82 @@
 				92241F961CAD1DFD00E0471A /* LaunchScreen.storyboard in Resources */,
 				92241F931CAD1DFD00E0471A /* Assets.xcassets in Resources */,
 				92241F8E1CAD1DFD00E0471A /* Main.storyboard in Resources */,
+				92241FC81CAEA3ED00E0471A /* Peoples.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68BEBF3AA45556B4CEBEC42A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E3408CCC63FEF930E12371A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35F82C1BE2D2F89B9DDAC01 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92241F7C1CAD1DFD00E0471A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92241FC31CAE992300E0471A /* People.m in Sources */,
 				92241F8B1CAD1DFD00E0471A /* ViewController.m in Sources */,
+				92E10FC51CB10A7100D28BD4 /* NormalScrollConstrainController.m in Sources */,
+				92241FB91CAE4DDE00E0471A /* AspectFitConstrainsController.m in Sources */,
+				92241FBC1CAE4E4B00E0471A /* CompositeConstrainsController.m in Sources */,
+				92241FA71CAD23B700E0471A /* LCHBaseController.m in Sources */,
+				92E10FC21CB0D7D600D28BD4 /* complexScrollConstrainsController.m in Sources */,
 				92241F911CAD1DFD00E0471A /* Masonry__.xcdatamodeld in Sources */,
+				92241FB61CADF92D00E0471A /* TotallyUpdateConstrainViewController.m in Sources */,
+				92241FB01CAD599900E0471A /* UpdateConstrainsController.m in Sources */,
+				92241FB31CAD669000E0471A /* RemakeConstrainsController.m in Sources */,
 				92241F881CAD1DFD00E0471A /* AppDelegate.m in Sources */,
+				92241FC61CAEA3BA00E0471A /* TableConstrainsController.m in Sources */,
+				92241FAD1CAD282F00E0471A /* BaseController.m in Sources */,
 				92241F851CAD1DFD00E0471A /* main.m in Sources */,
+				92E10FBF1CB0A90C00D28BD4 /* SimpleScrollConstrainController.m in Sources */,
+				92241FC01CAE98F700E0471A /* LCHAutoHeightCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +470,7 @@
 		};
 		92241F9B1CAD1DFD00E0471A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF085E24D115FE7E333EA0D3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Masonry学习/Info.plist";
@@ -274,6 +482,7 @@
 		};
 		92241F9C1CAD1DFD00E0471A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A36DED4F8B8B2A9AC29ED1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Masonry学习/Info.plist";
@@ -302,6 +511,7 @@
 				92241F9C1CAD1DFD00E0471A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
